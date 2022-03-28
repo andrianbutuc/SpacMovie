@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">SpacMovie</string>
+    <string name="about">Créer par Butuc Andrian 54254</string>
+    <string name="about_page">About Page</string>
+
+    <!-- Sign up string  -->
+    <string name="sign_up_button">Sign up</string>
+    <string name="sign_up_succeed">Your registration is successful</string>
+    <string name="sign_up_page">Sign up </string>
+    <string name="sign_up_failed">You failed to sign</string>
+
+    <!-- Log in string  -->
+    <string name="log_in_button">Log in</string>
+    <string name="log_in_page">Log in </string>
+    <string name="failed_log_in">Log in failed, check your email or password</string>
+
+    <!-- Home string  -->
+    <string name="home_page">Home</string>
+    <string name="label_popular_movies">Popular films</string>
+    <string name="label_top_rated_movies">Top-rated movies</string>
+    <string name="label_upcoming_movies">Upcoming movies</string>
+
+    <!-- Search string  -->
+    <string name="search_page">Search</string>
+    <string name="searching_label">You are searching for ?</string>
+
+    <!-- Menu string  -->
+    <string name="sign_up_menu">Sign up Menu</string>
+    <string name="login_menu">Log in Menu</string>
+    <string name="about_menu">About Menu</string>
+
+    <string name="search_menu">Search Menu</string>
+    <string name="movies_lists_menu">Movie Lists Menu</string>
+
+    <!-- Details string  -->
+    <string name="detail_page">Details</string>
+    <string name="content_description_movie_image">Movie Image</string>
+    <string name="add_to">Add to</string>
+
+    <!-- Movie Lists string  -->
+    <string name="movie_lists_page">Movie Lists</string>
+    <string name="personalized_movies_lists">Personalized movies lists</string>
+    <string name="add_new_list">Add new list</string>
+
+    <!-- Comments string  -->
+    <string name="comments_page">Comments</string>
+    <string name="comments_section">Comments Section</string>
+    <string name="add_comment">Add Comment</string>
+    <string name="write_the_comment">Write the comment here …</string>
+
+    <!-- Add new movie list string  -->
+    <string name="add_new_movie_list_dialog">Add new movie list</string>
+    <string name="list_name">New list Name</string>
+    <string name="create_button">Create List</string>
+    <string name="cancel_button">Cancel</string>
+
+    <!-- Add movie to list string  -->
+    <string name="add_movie_to_list_dialog">Add movie to list</string>
+
+    <!-- Home view movie string  -->
+    <string name="movie_image">Movie Image</string>
+
+</resources>

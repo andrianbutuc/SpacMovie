@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.projet.home.HomeFragment"
+        android:label="@string/home_page" >
+        <action
+            android:id="@+id/action_homeFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_moviesListsFragment2"
+            app:destination="@id/moviesListsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_searchFragment2"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.projet.detail.DetailFragment"
+        android:label="@string/detail_page" >
+        <argument
+            android:name="movieId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_detailFragment_to_addMovieToListFragment"
+            app:destination="@id/addMovieToListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/moviesListsFragment"
+        android:name="com.example.projet.movieslists.MoviesListsFragment"
+        android:label="@string/movie_lists_page" >
+        <action
+            android:id="@+id/action_moviesListsFragment_to_addNewMovieListFragment"
+            app:destination="@id/addNewMovieListFragment" />
+        <action
+            android:id="@+id/action_moviesListsFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.projet.search.SearchFragment"
+        android:label="@string/search_page" />
+    <dialog
+        android:id="@+id/addNewMovieListFragment"
+        android:name="com.example.projet.add_new_list.AddNewMovieListFragment"
+        android:label="@string/add_new_movie_list_dialog" />
+    <dialog
+        android:id="@+id/addMovieToListFragment"
+        android:name="com.example.projet.add_movie_to_list.AddMovieToListFragment"
+        android:label="@string/add_movie_to_list_dialog" >
+        <argument
+            android:name="nameList"
+            app:argType="string[]" />
+        <argument
+            android:name="movieId"
+            app:argType="integer" />
+        <argument
+            android:name="movieImageUrl"
+            app:argType="string" />
+    </dialog>
+    <fragment
+        android:id="@+id/commentsFragment"
+        android:name="com.example.projet.comments.CommentsFragment"
+        android:label="@string/comments_page" >
+        <argument
+            android:name="movieId"
+            app:argType="integer" />
+    </fragment>
+</navigation>

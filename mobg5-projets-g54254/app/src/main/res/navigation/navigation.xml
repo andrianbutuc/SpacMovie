@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/connexionFragment">
+
+    <fragment
+        android:id="@+id/connexionFragment"
+        android:name="com.example.projet.connexion.LogInFragment"
+        android:label="@string/log_in_page" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.projet.about.AboutFragment"
+        android:label="@string/about_page" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.projet.register.RegisterFragment"
+        android:label="@string/sign_up_page" />
+</navigation>

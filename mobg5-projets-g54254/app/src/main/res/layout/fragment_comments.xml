@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="commentsViewModel"
+            type="com.example.projet.comments.CommentsViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/comments_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/comments_section" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/write_the_comment"
+                android:inputType="textLongMessage"
+                android:minHeight="48dp"
+                android:text="@={commentsViewModel.comment}"
+                android:importantForAutofill="no" />
+
+            <Button
+                android:id="@+id/add_button_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:onClick="@{() ->commentsViewModel.addComment()}"
+                android:text="@string/add_comment" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView_comments"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.50">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+
+</layout>

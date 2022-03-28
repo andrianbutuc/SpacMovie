@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/andri/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_dropdown_item_1line.xml" value="0.3145833333333333" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.13645833333333332" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/drawable/ic_launcher_background.xml" value="0.13645833333333332" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout-land/fragment_comments.xml" value="0.6614583333333334" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout-land/fragment_detail.xml" value="0.5" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout-land/movie_comments_view.xml" value="0.6614583333333334" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout/activity_authentification.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout/activity_home.xml" value="0.45952109464082097" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout/fragment_about.xml" value="0.33" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout/fragment_add_movie_to_list.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout/fragment_add_new_list_of_movies.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout/fragment_comments.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout/fragment_comments_land.xml" value="0.3145833333333333" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout/fragment_connexion.xml" value="0.26526315789473687" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout/fragment_detail.xml" value="0.33" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout/fragment_detail_land.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout/fragment_detail_landscape.xml" value="0.25" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout/fragment_log_in.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout/fragment_movies_lists.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout/fragment_register.xml" value="0.264" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout/fragment_search.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout/home_view_movie.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout/movie_comments_view.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout/movie_list_view.xml" value="0.29074074074074074" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/layout/test_detail.xml" value="0.6111430212521539" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/menu/connected_user_menu.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/menu/navdrawer_menu.xml" value="0.2861111111111111" />
+        <entry key="..\:/Users/andri/ProjetKotlin/mobg5-projets-g54254/app/src/main/res/menu/options_menu.xml" value="0.2861111111111111" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

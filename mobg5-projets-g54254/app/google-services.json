@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "563245846688",
+    "project_id": "spacmovie",
+    "storage_bucket": "spacmovie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563245846688:android:b1169df8bbcb878255f9c5",
+        "android_client_info": {
+          "package_name": "com.example.android.navigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563245846688-e81q5egcgidiosef5dj7qpb7gbvl90am.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDznt89rdL-8lKzz8957H3FPut81I_UGAU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563245846688-e81q5egcgidiosef5dj7qpb7gbvl90am.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
